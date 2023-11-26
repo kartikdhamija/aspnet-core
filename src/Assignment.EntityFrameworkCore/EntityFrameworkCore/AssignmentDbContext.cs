@@ -12,6 +12,7 @@ namespace Assignment.EntityFrameworkCore
     {
         /* Define a DbSet for each entity of the application */
         public DbSet<Country> Countrys {get; set;}
+        public DbSet<State> States { get; set; } // Add DbSet for State entity
         public AssignmentDbContext(DbContextOptions<AssignmentDbContext> options)
             : base(options)
         {
