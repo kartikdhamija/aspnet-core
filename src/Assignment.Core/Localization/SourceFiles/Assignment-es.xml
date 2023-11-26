@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="es">
   <texts>
+    <text name= "sname" value = "sname" />
     <text name="name" value="name" />
     <text name="HomePage" value="Página de inicio" />
     <text name="About" value="Acerca de" />
